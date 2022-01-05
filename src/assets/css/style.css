@@ -1,0 +1,288 @@
+:root {
+  --color1: #eb6383;
+  --color2: #ffcbcb;
+  --color3: #363636;
+  --color4: rgb(54, 54, 54, 0.25);
+  --color5: rgb(255, 203, 203, 0.15);
+  --color6: #cecece;
+  --color7: rgb(206, 206, 206, 0.25);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* ********TOPBAR******** */
+.topbar {
+  background-color: var(--color1);
+  padding: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.topbar ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+.topbar ul li {
+  padding-left: 1rem;
+}
+
+.topbar ul li a {
+  color: #000000;
+}
+.topbar ul li a:hover {
+  opacity: 0.5;
+}
+
+/* ********MENUBAR******** */
+
+.menubar {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.menubar .navbar-nav a.active {
+  border-bottom: 0.3rem solid var(--color1);
+}
+
+.menubar .navbar-nav a:hover {
+  color: var(--color2) !important;
+}
+
+/* ********SLIDER******** */
+
+.slider {
+  background-color: var(--color2);
+  margin: 0;
+  padding: 0;
+}
+.slider .slider-cont {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.slider .carousel-caption {
+  color: white !important;
+  background-color: var(--color4);
+  border-radius: 0.7rem;
+}
+
+.slider .carousel-item img {
+  max-height: 75vh;
+}
+
+.slider.carousel-control-next-icon,
+.slider.carousel-control-prev-icon {
+  top: auto;
+  bottom: 5px;
+  width: auto;
+}
+
+.slider .carousel-control-prev {
+  right: 45px;
+  left: auto;
+}
+
+.section-title {
+  font-weight: 900;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-title h2 {
+  color: var(--color3);
+}
+
+.section-title span {
+  display: inline-block;
+  width: 10rem;
+  height: 0.7rem;
+  background-color: var(--color1);
+}
+
+/***********COSTUMER SERVICE CARD ***********/
+
+.card-body .icon {
+  color: var(--color2);
+  font-size: 4rem;
+}
+
+.accordion-button {
+  background-color: var(--color5);
+}
+
+/***********BOOKS KITAPLAR ***********/
+
+.bookList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bookList li {
+  background-color: var(--color5);
+  padding: 0.7rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.bookList li.active {
+  background-color: var(--color7);
+  position: relative;
+}
+
+.bookList li.active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  right: -15px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid var(--color7);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bookList li:first-child,
+.bookList li:last-child {
+  padding: 0;
+}
+
+.bookList li button {
+  width: 100%;
+}
+
+.book-image {
+  text-align: center;
+}
+
+.bookList .btn {
+  background-color: var(--color1);
+  border-color: var(--color1) !important;
+}
+
+.booksDropdown .dropdown-menu {
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.booksDropdown .btn {
+  background-color: var(--color1);
+}
+
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: var(--color2);
+  border-color: var(--color2);
+  color: var(--color3);
+}
+
+/***********PAGEHEADER ***********/
+.page-header {
+  padding: 4rem;
+  text-align: center;
+  position: relative;
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-image: url(../img/page-header-siir.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 1;
+}
+.page-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--color7);
+  opacity: 0.3;
+  z-index: 2;
+}
+
+.page-header .header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+.page-header .breadcrumb a {
+  color: var(--color3);
+  text-decoration: none;
+}
+.page-header .breadcrumb a:hover {
+  color: var(--color2);
+}
+
+/***********POEM ***********/
+
+/***********FOOTER ***********/
+footer {
+  background-color: var(--color6);
+  padding: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer ul li a {
+  color: var(--color3);
+  text-decoration: none;
+  margin-right: 2rem;
+  border-bottom: 2px solid var(--color3);
+}
+
+footer ul li a:hover {
+  color: var(--color2);
+  border-bottom: 3px solid var(--color1);
+}
+
+footer ul li :first-child {
+  margin-left: 0;
+}
+
+footer .nav-link {
+  padding: 0 0;
+  color: var(--color3) !important;
+}
+footer .dropdown-menu show {
+  color: var(--color2);
+}
