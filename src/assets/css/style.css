@@ -1,10 +1,10 @@
 :root {
-  --color1: #eb6383;
-  --color2: #ffcbcb;
+  --color1: #e0c097;
+  --color2: #f3f0d7;
   --color3: #363636;
-  --color4: rgb(54, 54, 54, 0.25);
-  --color5: rgb(255, 203, 203, 0.15);
-  --color6: #cecece;
+  --color4: rgba(54, 54, 54, 0.25);
+  --color5: rgba(255, 203, 203, 0.15);
+  --color6: #cee5d0;
   --color7: rgb(206, 206, 206, 0.25);
 }
 
@@ -113,12 +113,12 @@ body {
 /***********COSTUMER SERVICE CARD ***********/
 
 .card-body .icon {
-  color: var(--color2);
+  color: var(--color1);
   font-size: 4rem;
 }
 
 .accordion-button {
-  background-color: var(--color5);
+  background-color: var(--color2);
 }
 
 /***********BOOKS KITAPLAR ***********/
