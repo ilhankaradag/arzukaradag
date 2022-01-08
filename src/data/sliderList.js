@@ -2,35 +2,35 @@ const sliderList = [
   {
     id: 1,
     image: '/assets/img/slider/SLIDER1SIIR.png',
-    title: 'SIIRE VE HAYATA DAIR',
-    description: 'Hayati siirle yorumlayan bir sair.',
+    title: 'ŞİİRE VE HAYATA DAİR',
+    description: 'Hayatı şiirle yorumlayan bir şair.',
   },
   {
     id: 2,
-    image: '/assets/img/slider/SLIDER2EDEBIYAT.png',
-    title: 'INSANA VE SEVGIYE AIT',
-    description: 'Insan ve sevgiyi dize dize isleyen bir sair.',
+    image: '/assets/img/slider/SLIDER3SIIR1.png',
+    title: 'İNSANA VE SEVGİYE AİT',
+    description: 'İnsan ve sevgiyi dize dize işleyen bir şair.',
   },
   {
     id: 3,
     image: '/assets/img/slider/SLIDER3SIIR.png',
-    title: 'HUZUN VE MUTLULUK TANIMINI',
+    title: 'HÜZÜN VE MUTLULUK TANIMI',
     description:
-      'Huznu ve mutlulugu ic ice yasan insanin ruh halini betimleyen bir sair.',
+      'Hüznü ve mutlulugu iç içe yaşan insanın ruh halini betimleyen bir şair.',
   },
   {
     id: 4,
     image: '/assets/img/slider/SLIDER4EDEBIYAT.png',
-    title: 'KADIN VE COCUK VURGUSU',
+    title: 'KADIN VE ÇOCUK VURGUSU',
     description:
-      'Kadinin adini vurgulayan ve cocuklarin onemini belirten bir sair.',
+      'Kadının adını vurgulayan ve çocukların onemini belirten bir şair.',
   },
   {
     id: 5,
     image: '/assets/img/slider/SLIDER5SIIR.png',
-    title: 'EZILEN INSANLAR  VE VAROLMA MUCADELESI ',
+    title: 'EZİLEN İNSANLAR  VE VAROLMA MÜCADELESİ ',
     description:
-      'Toplum icinde varolmak icin mucadele eden insanlarin sesi olan bir sair.',
+      'Toplum içinde varolmak için mücadele eden insanların sesi olan bir şair.',
   },
 ]
 

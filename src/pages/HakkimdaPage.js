@@ -6,7 +6,7 @@ import Spacer from '../components/common/Spacer'
 const HakkimdaPage = () => {
   return (
     <>
-      <PageHeader title="Hakkımda" />
+      <PageHeader title="Hakkında" />
       <Spacer />
       <Hakkimda />
       <Spacer />

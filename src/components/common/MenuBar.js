@@ -18,7 +18,7 @@ const MenuBar = () => {
               Ana Sayfa
             </Nav.Link>
             <Nav.Link as={Link} to="/hakkimda">
-              Hakkımda
+              Hakkında
             </Nav.Link>
             <NavDropdown title="Şiirler" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/ing-siirler">

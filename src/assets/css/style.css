@@ -47,12 +47,9 @@ body {
   font-weight: bold;
 }
 
-.menubar .navbar-nav a.active {
-  border-bottom: 0.3rem solid var(--color1);
-}
-
 .menubar .navbar-nav a:hover {
-  color: var(--color2) !important;
+  color: var(--color1) !important;
+  border-bottom: 0.3rem solid var(--color1) !important;
 }
 
 /* ********SLIDER******** */
@@ -239,10 +236,18 @@ body {
 
 .page-header .breadcrumb a {
   color: var(--color3);
-  text-decoration: none;
 }
 .page-header .breadcrumb a:hover {
   color: var(--color2);
+}
+
+.breadcrumb-item.active {
+  color: var(--color3);
+}
+.active,
+.dot:hover {
+  background-color: rgb(255, 192, 203, 0.1);
+  opacity: 0.8;
 }
 
 /***********POEM ***********/
@@ -271,7 +276,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  color: var(--color2);
+  color: var(--color1);
   border-bottom: 3px solid var(--color1);
 }
 
