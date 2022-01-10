@@ -53,11 +53,11 @@ const Galeri = () => {
       caption: '',
     },
     {
-      image: '/assets/img/galeri/galeri-siir14.png',
+      image: '/assets/img/galeri/galeri-siir13.png',
       caption: '',
     },
     {
-      image: '/assets/img/galeri/galeri-siir15.png',
+      image: '/assets/img/galeri/galeri-siir14.png',
       caption: '',
     },
     {
@@ -80,6 +80,18 @@ const Galeri = () => {
       image: '/assets/img/galeri/galeri-siir20.png',
       caption: '',
     },
+    {
+      image: '/assets/img/galeri/galeri-siir21.png',
+      caption: '',
+    },
+    {
+      image: '/assets/img/galeri/galeri-siir22.png',
+      caption: '',
+    },
+    {
+      image: '/assets/img/galeri/galeri-siir23.png',
+      caption: '',
+    },
   ]
 
   const captionStyle = {
@@ -93,13 +105,6 @@ const Galeri = () => {
   return (
     <div className="App">
       <div style={{ textAlign: 'center' }}>
-        <h2>Hatıraları saklar resimler,</h2>
-        <p>
-          <br />
-          Görüntüsü resim de,
-          <br />
-          Duyguları bizde kalan hatıralar...
-        </p>
         <div
           style={{
             padding: '0 20px',

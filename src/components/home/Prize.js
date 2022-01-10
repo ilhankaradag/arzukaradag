@@ -1,6 +1,6 @@
 import React from 'react'
 import { Accordion, Col, Container, Image, Row, Table } from 'react-bootstrap'
-import resim from '../../assets/img/DSCF4305.png'
+import resim from '../../assets/img/galeri-siir9.png'
 import SectionTitle from '../common/SectionTitle'
 
 const Prize = () => {

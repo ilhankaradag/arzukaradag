@@ -168,6 +168,19 @@ const Books = () => {
           </Card>
         </Col>
       </Row>
+      <Spacer size={50} />
+      <Row>
+        <Col style={{ textAlign: 'center' }}>
+          <Card>
+            <Card.Body>
+              <Image
+                className="img-fluid "
+                src="/assets/img/books/Ceyhun-Atuf-Kansu-mektup.png"
+              />
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
     </Container>
   )
 }

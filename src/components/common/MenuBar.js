@@ -31,8 +31,8 @@ const MenuBar = () => {
                 Kürtçe Şiirler
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/kat-bul-kitaplar">
-                Katkida Bulundugu Kitaplar
+              <NavDropdown.Item as={Link} to="/gurcuce-siirler">
+                Gürcüce Şiirler
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/kitaplar">

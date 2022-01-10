@@ -24,8 +24,8 @@ const Footer = () => {
               Kürtçe Şiirler
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item as={Link} to="/kat-bul-kitaplar">
-              Katkida Bulundugu Kitaplar
+            <NavDropdown.Item as={Link} to="/gurcuce-siirler">
+              Gürcüce Şiirler
             </NavDropdown.Item>
           </NavDropdown>
         </li>

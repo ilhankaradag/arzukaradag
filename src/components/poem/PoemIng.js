@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import PageHeader from '../common/PageHeader'
-import SectionTitle from '../common/SectionTitle'
 import Spacer from '../common/Spacer'
 
 const PoemIng = () => {
