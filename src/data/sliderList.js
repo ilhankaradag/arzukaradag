@@ -1,7 +1,7 @@
 const sliderList = [
   {
     id: 1,
-    image: '/assets/img/slider/SLIDER1SIIR.png',
+    image: '/assets/img/slider/SLIDER1SIIR.jpg',
     title: 'ŞİİRE VE HAYATA DAİR',
     description: 'Hayatı şiirle yorumlayan bir şair.',
   },
@@ -13,21 +13,21 @@ const sliderList = [
   },
   {
     id: 3,
-    image: '/assets/img/slider/SLIDER3SIIR.png',
+    image: '/assets/img/slider/SLIDER3SIIR.jpg',
     title: 'HÜZÜN VE MUTLULUK TANIMI',
     description:
       'Hüznü ve mutlulugu iç içe yaşan insanın ruh halini betimleyen bir şair.',
   },
   {
     id: 4,
-    image: '/assets/img/slider/SLIDER4EDEBIYAT.png',
+    image: '/assets/img/slider/SLIDER4EDEBIYAT.jpg',
     title: 'KADIN VE ÇOCUK VURGUSU',
     description:
       'Kadının adını vurgulayan ve çocukların onemini belirten bir şair.',
   },
   {
     id: 5,
-    image: '/assets/img/slider/SLIDER5SIIR.png',
+    image: '/assets/img/slider/SLIDER5SIIR.jpg',
     title: 'EZİLEN İNSANLAR  VE VAROLMA MÜCADELESİ ',
     description:
       'Toplum içinde varolmak için mücadele eden insanların sesi olan bir şair.',

@@ -6,14 +6,21 @@ const Footer = () => {
   return (
     <footer>
       <ul>
-        <li>
+        <li className="d-none d-md-block">
           <Link to="/">Ana Sayfa</Link>
+        </li>
+        <li className="d-block d-sm-none">
+          <Link to="/">A.Sayfa</Link>
         </li>
         <li>
           <Link to="/hakkimda">Hakkında</Link>
         </li>
         <li className="footer-siir">
-          <NavDropdown title="Şiirler" id="basic-nav-dropdown">
+          <NavDropdown
+            title="Şiirler"
+            id="basic-nav-dropdown"
+            className="d-none d-sm-block"
+          >
             <NavDropdown.Item as={Link} to="/ing-siirler">
               İngilizce Şiirler
             </NavDropdown.Item>
